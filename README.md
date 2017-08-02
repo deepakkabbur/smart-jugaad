@@ -1,0 +1,2 @@
+# smart-jugaad
+static website
