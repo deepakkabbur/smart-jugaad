@@ -16,7 +16,7 @@ h1 strong {
 
 h2 {
   text-transform: uppercase;
-  line-height: 20px;
+  line-height: 40px;
   font-weight: 600;
   margin: 0; }
 
@@ -70,7 +70,6 @@ hr {
   width: 70px;
   text-align: center;
   position: relative;
-  background: #da223d;
   margin: 0 auto;
   margin-bottom: 30px;
   border: 0; }
@@ -185,6 +184,7 @@ label {
     z-index: 10; }
     .intro .intro-body h1 {
       font-size: 76px;
+      line-height: 80px;
       font-weight: 700;
       color: #FFF200;
       text-transform: uppercase;
@@ -214,6 +214,8 @@ label {
     transition-duration: 0.5s;
     background-color: #da223d;
     opacity: 0.80; }
+  .about hr {
+    background: #FFF200; }
   .about .about-text {
     margin-left: 10px; }
   .about h4 {
@@ -227,7 +229,7 @@ label {
       content: "✓";
       font-weight: 600;
       padding-right: 10px;
-      color: #da223d; }
+      color: #FFF200; }
   .about img {
     margin-top: 20px; }
   .about p {
@@ -242,6 +244,8 @@ label {
   color: #333333; }
   .contact h2 {
     color: #333333; }
+  .contact hr {
+    background: #da223d; }
   .contact:before {
     content: ' ';
     display: block;

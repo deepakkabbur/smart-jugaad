@@ -17,7 +17,7 @@ h1 strong {
 }
 h2 {
 	text-transform: uppercase;
-	line-height: 20px;
+	line-height: 40px;
 	font-weight: 600;
 	margin: 0;
 }
@@ -71,7 +71,6 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: $primary-color;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -214,6 +213,7 @@ label {
         z-index: 10;
         h1 {
             font-size: 76px;
+            line-height: 80px;
             font-weight: 700;
             color: $secondary-color;
             text-transform: uppercase;
@@ -238,7 +238,7 @@ label {
     width: 100%;
     color: $white;
   	background: url(../images/about-bg2.jpg) no-repeat center center fixed;
-    
+
     &:before {
         content: ' ';
         display: block;
@@ -251,6 +251,10 @@ label {
         transition-duration: 0.5s;
         background-color: $primary-color;
         opacity: 0.80;
+    }
+
+    hr {
+    	background: $secondary-color;
     }
     .about-text {
 	    margin-left: 10px;
@@ -267,7 +271,7 @@ label {
             content: "✓";
             font-weight: 600;
             padding-right: 10px;
-            color: $primary-color;
+            color: $secondary-color;
         }
     }
     img {
@@ -285,10 +289,13 @@ label {
     text-align: center;
     padding: 120px 0 40px 0;
     position: relative;
-  	background: url(../images/contact-bg.jpg) no-repeat center center fixed;    
+  	background: url(../images/contact-bg.jpg) no-repeat center center fixed;
     color: $grey;
     h2{
         color: $grey;
+    }
+    hr {
+    	background: $primary-color;
     }
     &:before {
         content: ' ';
