@@ -40,7 +40,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
-  color: #021e4c; }
+  color: #333333; }
 
 ul, ol {
   list-style: none;
@@ -86,11 +86,11 @@ hr {
     color: #ffffff; }
     .navbar-custom .nav li a:hover, .navbar-custom .nav li a:active {
       outline: 0;
-      color: #da223d;
+      color: #FFF200;
       background-color: transparent; }
     .navbar-custom .nav li a:focus {
       outline: 0;
-      color: #021e4c;
+      color: #da223d;
       background-color: #ffffff; }
   .navbar-custom .nav li:active {
     outline: 0; }
@@ -99,7 +99,8 @@ hr {
     color: #da223d;
     background-color: transparent; }
   .navbar-custom .navbar-brand {
-    font-weight: 600; }
+    font-weight: 600;
+    color: #da223d; }
     .navbar-custom .navbar-brand:focus {
       outline: 0;
       color: #da223d; }
@@ -112,7 +113,7 @@ hr {
     padding: 0 4px; }
     .navbar-custom .navbar-toggle:hover {
       background-color: #333333;
-      color: #da223d; }
+      color: #FFF200; }
 
 /* End Navigation */
 #preloader {
@@ -140,8 +141,8 @@ hr {
   color: #ffffff;
   background-color: #da223d; }
   .btn-default:hover, .btn-default:active, .btn-default:focus {
-    color: #ffffff;
-    background-color: #021e4c; }
+    color: #FFF200;
+    background-color: #da223d; }
 
 label {
   font-size: 12px;
@@ -150,7 +151,7 @@ label {
   float: left; }
 
 .section-title {
-  padding: 30px 0; }
+  padding: 30px; }
   .section-title h2 {
     margin-bottom: 30px; }
 
@@ -160,31 +161,59 @@ label {
   height: 100%;
   padding: 100px 0;
   text-align: center;
-  background: url(../images/intro6.jpeg) no-repeat center center fixed;
+  background: url(../images/intro_1.png) no-repeat center center fixed;
   background-color: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
+  .intro:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition-duration: 0.5s;
+    background-color: #333333;
+    opacity: 0.70; }
   .intro .intro-body {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    z-index: 10; }
     .intro .intro-body h1 {
       font-size: 76px;
       font-weight: 700;
-      color: #ffffff;
+      color: #FFF200;
       text-transform: uppercase;
-      text-shadow: 0 4px #333333; }
+      text-shadow: 0 4px #da223d; }
     .intro .intro-body .brand-heading {
       color: #da223d;
       text-shadow: 0 4px #ffffff; }
     .intro .intro-body .intro-text {
       font-size: 18px;
-      color: #da223d; }
+      color: #FFF200; }
 
 .about {
   padding: 150px 0;
-  background: #ffffff; }
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+  background: url(../images/about-bg2.jpg) no-repeat center center fixed; }
+  .about:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition-duration: 0.5s;
+    background-color: #da223d;
+    opacity: 0.80; }
   .about .about-text {
     margin-left: 10px; }
   .about h4 {
@@ -207,7 +236,24 @@ label {
 
 .contact {
   text-align: center;
-  padding: 120px 0 40px 0; }
+  padding: 120px 0 40px 0;
+  position: relative;
+  background: url(../images/contact-bg.jpg) no-repeat center center fixed;
+  color: #333333; }
+  .contact h2 {
+    color: #333333; }
+  .contact:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition-duration: 0.5s;
+    background-color: #FFF200;
+    opacity: 0.50; }
   .contact .contact-item {
     padding: 10px;
     margin: 10px;
@@ -233,7 +279,14 @@ label {
       border-radius: 4px;
       transition: all 0.3s; }
       .contact .social i.fa:hover {
-        color: #021e4c; }
+        color: #da223d; }
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  height: 100%;
+  width: 100%; }
 
 @media (min-width: 768px) {
   .intro {
