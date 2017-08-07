@@ -154,6 +154,9 @@ label {
   .section-title h2 {
     margin-bottom: 30px; }
 
+.brand {
+  font-weight: bold; }
+
 .intro {
   display: table;
   width: 100%;
@@ -212,7 +215,10 @@ label {
   .about .about-text {
     margin-left: 10px; }
   .about h4 {
-    font-size: 20px; }
+    font-size: 20px;
+    color: #FFF200;
+    font-style: italic;
+    font-weight: bold; }
   .about li {
     margin-bottom: 3px;
     list-style: none;
@@ -228,6 +234,8 @@ label {
   .about p {
     margin-top: 20px;
     margin-bottom: 30px; }
+  .about .brand {
+    color: #FFF200; }
 
 .contact {
   text-align: center;
