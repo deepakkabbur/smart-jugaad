@@ -36,7 +36,7 @@ p {
   font-size: 14px; }
 
 a {
-  color: #da223d; }
+  color: #9c0600; }
 
 a:hover, a:focus {
   text-decoration: none;
@@ -89,22 +89,22 @@ hr {
       background-color: transparent; }
     .navbar-custom .nav li a:focus {
       outline: 0;
-      color: #da223d;
+      color: #9c0600;
       background-color: #ffffff; }
   .navbar-custom .nav li:active {
     outline: 0; }
   .navbar-custom li a:hover {
     outline: 0;
-    color: #da223d;
+    color: #9c0600;
     background-color: transparent; }
   .navbar-custom .navbar-brand {
     font-weight: 600;
-    color: #da223d; }
+    color: #9c0600; }
     .navbar-custom .navbar-brand:focus {
       outline: 0;
-      color: #da223d; }
+      color: #9c0600; }
     .navbar-custom .navbar-brand:hover {
-      color: #da223d; }
+      color: #9c0600; }
   .navbar-custom .navbar-toggle {
     color: #ffffff;
     font-size: 18px;
@@ -138,10 +138,10 @@ hr {
 
 .btn-default {
   color: #ffffff;
-  background-color: #da223d; }
+  background-color: #9c0600; }
   .btn-default:hover, .btn-default:active, .btn-default:focus {
     color: #FFF200;
-    background-color: #da223d; }
+    background-color: #9c0600; }
 
 label {
   font-size: 12px;
@@ -179,9 +179,9 @@ label {
       font-weight: 700;
       color: #FFF200;
       text-transform: uppercase;
-      text-shadow: 0 4px #da223d; }
+      text-shadow: 0 4px #9c0600; }
     .intro .intro-body .brand-heading {
-      color: #da223d;
+      color: #9c0600;
       text-shadow: 0 4px #ffffff; }
     .intro .intro-body .intro-text {
       font-size: 18px;
@@ -193,23 +193,11 @@ label {
   position: relative;
   width: 100%;
   color: #ffffff;
-  background: url(../images/about-bg2.jpg) no-repeat center center fixed;
+  background-color: #9c0600;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
-  .about:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    transition-duration: 0.5s;
-    background-color: #da223d;
-    opacity: 0.80; }
   .about hr {
     background: #FFF200; }
   .about .about-text {
@@ -241,8 +229,8 @@ label {
   text-align: center;
   padding: 120px 0 40px 0;
   position: relative;
-  background: url(../images/contact3.jpg) no-repeat center center fixed;
   color: #333333;
+  background-color: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -250,19 +238,7 @@ label {
   .contact h2 {
     color: #333333; }
   .contact hr {
-    background: #da223d; }
-  .contact:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    transition-duration: 0.5s;
-    background-color: #ffffff;
-    opacity: 0.50; }
+    background: #9c0600; }
   .contact .contact-item {
     padding: 10px;
     margin: 10px;
@@ -274,7 +250,7 @@ label {
     margin-top: 40px; }
   .contact i.fa {
     font-size: 22px;
-    color: #da223d;
+    color: #9c0600;
     margin-bottom: 10px; }
   .contact .social {
     margin-top: 30px; }
@@ -284,11 +260,11 @@ label {
     .contact .social i.fa {
       font-size: 24px;
       padding-top: 8px;
-      color: #da223d;
+      color: #9c0600;
       border-radius: 4px;
       transition: all 0.3s; }
       .contact .social i.fa:hover {
-        color: #da223d; }
+        color: #9c0600; }
 
 .footer {
   background-color: #333333;
