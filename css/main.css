@@ -79,7 +79,7 @@ hr {
   padding: 0;
   border-bottom: 0;
   letter-spacing: 1px;
-  background: #333333;
+  background: #000000;
   text-transform: uppercase; }
   .navbar-custom .nav li a {
     color: #ffffff; }
@@ -189,7 +189,7 @@ label {
       margin-top: 15px; }
 
 .about {
-  padding: 150px 0;
+  padding: 50px 0;
   position: relative;
   width: 100%;
   color: #ffffff;
@@ -261,7 +261,7 @@ label {
     height: 100%;
     z-index: 0;
     transition-duration: 0.5s;
-    background-color: #FFF200;
+    background-color: #ffffff;
     opacity: 0.50; }
   .contact .contact-item {
     padding: 10px;
